@@ -8,10 +8,9 @@ import 'pages/authentication/login.dart';
 import 'pages/authentication/register.dart';
 import 'pages/intro.dart';
 
-
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
   await Firebase.initializeApp(
     options: FirebaseOptions(
       apiKey: "AIzaSyCsw_MZxDN-gDjvCmJIRUCeOss0rhySeGg", 
