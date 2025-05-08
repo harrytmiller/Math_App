@@ -1,9 +1,57 @@
-Readme
 
-Running application
-open file in visual studio coad and run 'flutter pub get' then 'flutter run' in the terminal.
+# Math Club
 
-Guide to use Math Club
+## Description
+
+maths app
+
+
+## Getting Started
+
+Follow these steps to set up and run the project locally:
+
+### 1. Install Dependencies
+
+Install dependencies:
+
+```bash
+flutter pub get
+
+```
+
+
+### 2. Start Development Server
+
+run application
+
+```bash
+flutter run
+
+```
+
+
+## Running Automated Tests
+
+Note- For compatability test drivers to work the corresponding version of the browser must be installed on the computer running the tests.
+Versions required:
+For chrome: 135.x.xxxx.xx
+For edge: 136.x.xxxx.xx
+For firefox: 138.x.x(other versions of firefox may also work)
+
+run tests
+
+```bash
+python -m http.server 8080
+
+```
+then in a new terminal
+
+```bash
+flutter test
+
+```
+
+## Guide to use Math Club
 
 Introduction: When you first open Math Club, click anywhere on the welcome screen container to continue to the login page.
 
@@ -30,18 +78,10 @@ From home/question page press 'menu' and then one of the dropdown options (Profi
 Profile Page
 from the profile page you can view their profile details (email, username, days in a row, highest days in a row, advanced mode). you can also toggle advanced mode by pressing the check box. This will change question difficulty to that of the year above or an additional difficulty for users in year 6 with advanced mode. you can also update profile details (username and school year). Click 'Update Profile', fill in fields, then press 'Update'. If error message is present/update is unsuccessful try again in response to the error. You can also change your password. Click 'Change Password', fill in fields, then click second 'Change Password' button. If error message is present/update is unsuccessful try again in response to the error.
 
-
 About us
 About us page offers a paragraph about the app as well as admin contact details.
 
 Faq
 The FAQ page contains answers to common questions. Use the search bar to find specific key words. Click on any question to view its answer.
 
-Running tests
-open file in visual studio coad and run 'python -m http.server 8080'. Then in a new terminal while the other is running, run 'flutter pub get' then 'flutter test'.
 
-Note- For compatability test drivers to work the corresponding version of the browser must be installed on the computer running the tests.
-Versions required:
-For chrome: 135.x.xxxx.xx
-For edge: 136.x.xxxx.xx
-For firefox: 138.x.x(other versions of firefox may also work)
